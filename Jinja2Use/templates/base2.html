@@ -1,0 +1,26 @@
+<html>
+<head></head>
+{% block title %}这是母版页{% endblock %}
+<body>
+<table border="1" style="width: 700px;">
+    <tr>
+        <td colspan="2" style="height:30px;text-align: center;">
+        {% include "head.html" %}
+        </td>
+    </tr>
+    <tr style="vertical-align:middle;height:300px;">
+        <td style="width:200px;">
+            {% block left %}这是左边的菜单{% endblock %}
+        </td>
+        <td style="width: 500px;">
+            {% block content %}这个区域随着内容页的变化而变化{% endblock %}
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="height:30px;text-align: center;">
+        {% include "footer.html" %}
+        </td>
+    </tr>
+</table>
+</body>
+</html>

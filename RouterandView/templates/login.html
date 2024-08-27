@@ -1,0 +1,10 @@
+
+    <form method="POST" action="{{ url_for('login') }}" novalidate>
+    <label>用户名:</label>
+        <input type="text" name="usrname" required><br>
+    <label>密码：</label>
+        <input type="password" name="password" required><br>
+    <input type="submit" value="login" >
+        {{ message }}
+
+    </form>

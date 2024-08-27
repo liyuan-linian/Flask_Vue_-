@@ -1,0 +1,24 @@
+<style type="text/css">
+    .odd {
+        background-color:#01a0e4;
+        color: #fff;
+    }
+    .even {
+        background-color:#4709ac;
+        color: #fff;
+    }
+</style>
+
+<table>
+    {% for list in lists %}
+        {% if loop.first %}
+            <tr><td> the first one: {{ list.书名 }}</td></tr>
+        {% endif %}
+        <tr class="{{ loop.cycle('odd',"even") }}">
+            <td>(第{{ loop.index }}本书，总共{{ loop.length }}本书)：{{ list.书名 }}，价格：{{ list.价格 }}，当前索引{{ loop.index }}</td>
+        </tr>
+        {% if loop.last %}
+            <tr><td> the last one: {{ list.书名 }}</td></tr>
+        {% endif %}
+    {% endfor %}
+</table>
