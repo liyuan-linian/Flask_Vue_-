@@ -4,36 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6fa3d75-cd90-407a-86b0-a00f33a7300e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/flask_Vue_项目练习.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/app2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/static/css/adminlte.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/static/img/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/static/img/default-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/base1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/base2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/flash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/score.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jinja2Use/templates/var.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RouterandView/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RouterandView/app2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RouterandView/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RouterandView/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RouterandView/templates/login.html" afterDir="false" />
+    <list default="true" id="e6fa3d75-cd90-407a-86b0-a00f33a7300e" name="更改" comment="完成了第三章">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataBase/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;liyuan-linian&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/liyuan-linian/Flask_Vue_-.git&quot;,
+    &quot;accountId&quot;: &quot;99cdba8a-a145-4f76-ae93-f712fad8ddf1&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -78,16 +64,19 @@
     "Flask 服务器.Flask (Jinja2Use/app.py).executor": "Run",
     "Flask 服务器.Flask (RouterandView/app.py).executor": "Run",
     "Flask 服务器.Flask (RouterandView/app2.py).executor": "Run",
+    "Python.app (1).executor": "Run",
+    "Python.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Windows 10/PycharmProjects/flask_Vue_项目练习/Jinja2Use/static",
+    "last_opened_file_path": "C:/Users/Windows 10/PycharmProjects/flask_Vue_项目练习/DataBase/data.sqlite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,7 +90,53 @@
       <recent name="C:\Users\Windows 10\PycharmProjects\flask_Vue_项目练习\RouterandView" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask 服务器.Flask (Jinja2Use/app.py)">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_Vue_项目练习" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jinja2Use" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jinja2Use/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_Vue_项目练习" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataBase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataBase/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (Jinja2Use/app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="flask_Vue_项目练习" />
       <option name="target" value="$PROJECT_DIR$/Jinja2Use/app.py" />
@@ -158,6 +193,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (flask_Vue_项目练习)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -166,8 +202,18 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Flask 服务器.flask_Vue_项目练习" />
+      <item itemvalue="Flask 服务器.Flask (Jinja2Use/app.py)" />
+      <item itemvalue="Flask 服务器.Flask (RouterandView/app.py)" />
+      <item itemvalue="Flask 服务器.Flask (RouterandView/app2.py)" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.app (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Flask 服务器.Flask (Jinja2Use/app.py)" />
         <item itemvalue="Flask 服务器.Flask (RouterandView/app2.py)" />
         <item itemvalue="Flask 服务器.Flask (RouterandView/app.py)" />
@@ -177,8 +223,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
       </set>
     </attachedChunks>
   </component>
@@ -194,16 +240,34 @@
       <workItem from="1721369244755" duration="4302000" />
       <workItem from="1724544427804" duration="7676000" />
       <workItem from="1724586379381" duration="4854000" />
-      <workItem from="1724762353597" duration="4224000" />
+      <workItem from="1724762353597" duration="5318000" />
+      <workItem from="1724846474366" duration="191000" />
+      <workItem from="1725019489193" duration="1008000" />
+      <workItem from="1725020739802" duration="5563000" />
     </task>
+    <task id="LOCAL-00001" summary="完成了第三章">
+      <option name="closed" value="true" />
+      <created>1724766788266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724766788266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成了第三章" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了第三章" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flask_Vue_$app.coverage" NAME="app 覆盖结果" MODIFIED="1725024553461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataBase" />
     <SUITE FILE_PATH="coverage/flask_Vue_$Flask__RouterandView_app_py_.coverage" NAME="Flask (RouterandView/app.py) 覆盖结果" MODIFIED="1721371245694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flask_Vue_$Flask__Jinja2Use_app_py_.coverage" NAME="Flask (Jinja2Use/app.py) 覆盖结果" MODIFIED="1724766159163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flask_Vue_$Flask__RouterandView_app2_py_.coverage" NAME="Flask (RouterandView/app2.py) 覆盖结果" MODIFIED="1724552557791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_Vue_$app__1_.coverage" NAME="app (1) 覆盖结果" MODIFIED="1725020807003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Jinja2Use" />
+    <SUITE FILE_PATH="coverage/flask_Vue_$Flask__Jinja2Use_app_py_.coverage" NAME="Flask (Jinja2Use/app.py) 覆盖结果" MODIFIED="1724766159163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
