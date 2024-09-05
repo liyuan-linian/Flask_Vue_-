@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="{{ url_for('login') }}" novalidate>
+    <label>usrname : </label>
+    <input type="text" name="username" required> <br>
+    <label>password :</label>
+    <input type="password" name="password" required><br>
+    <input type="submit" value="Submit">
+    {{ messages }}
+</form>
+
+</body>
+</html>

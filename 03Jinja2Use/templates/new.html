@@ -1,0 +1,18 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for("static",filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for("static",filename='css/adminlte.min.css') }}">
+</head>
+<body>
+<img src="{{ url_for("static",filename='img/default-150x150.png') }}" class="img-size-50 mr-3 img-circle">
+<br>
+{{ url_for("static",filename="img/book.png") }}<br>
+{{ url_for("static",filename="img/book.png",_external=True) }}<br>
+<img src="{{ url_for("static",filename="img/book.png") }}" width="100" height="100">
+<br>
+<button type="button" name="bt1" class="btn btn-info">新增</button>
+<button type="button" name="bt1" class="btn btn-link">修改</button>
+<button type="button" name="bt1" class="btn btn-dark">保存</button>
+<button type="button" name="bt1" class="btn btn-default">删除</button>
+<button type="button" name="bt1" class="btn btn-danger">打印</button>
+<button type="button" name="bt1" class="btn btn-light">导出</button>
+<button type="button" name="bt1" class="btn btn-app">审核</button>

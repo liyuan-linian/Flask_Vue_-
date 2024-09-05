@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>your score is {{ score }}</p>
+<div> get
+    {% if score > 90 %}
+    <p>A</p>
+    {% elif score > 75  %}
+    <p>B</p>
+    {% elif score > 60  %}
+    <p>C</p>
+    {% endif %}
+</div>
+</body>
+</html>

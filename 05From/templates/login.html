@@ -1,0 +1,29 @@
+
+<form method="post">
+    <label>username</label>
+    <input type="text" id="username" required> <br>
+    <label>password</label>
+    <input type="password" id="password" required> <br>
+    <input type="button" id="btLogin" value="login">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+</form>
+<script src="{{ url_for('static',filename='plugins/jquery/jquery.min.js') }}"></script>
+<script>
+    $("#btLogin").click(function () {
+        $.ajax({
+            url: "{{ url_for("ajax_login_data") }}",
+            type: "POST",
+            data: {
+                username: $("#username").val(),
+                password: $("#password").val(),
+                "csrf_token": "{{ csrf_token() }}"
+            },
+            success: function (data) {
+                alert(data.msg)
+            },
+            error: function (jqXHR, textStatus, err) {
+                console.log(arguments)
+            },
+        })
+    })
+</script>
